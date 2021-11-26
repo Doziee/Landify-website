@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landify</title>
+
+    <!-- ----- vegas slide-show stylesheet ----- -->
+    <link rel="stylesheet" href="styles/vegas.css">
+
+    <!-- ----- swiper bundel stylesheet ----- -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- -----font awesome cdn ----- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- ----- custom stylesheet ----- -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- ----- google font "rajdhani" ----- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ---------- preloader ---------- -->
+    <div class="preloader">
+        <div class="col-sm-2 col-xs-4 text-center">
+            <div class="spinner-loader"> </div>
+        </div>
+    </div>
+
+    <!-- ----- navigation ----- -->
+    <header>
+        <!-- menu abr -->
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <!-- nav logo -->
+        <a href="#" class="navlogo">
+            <span>L</span>ANDIFY
+        </a>
+        <!-- nav menu -->
+        <nav class="navmenu">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#buying">buying</a>
+            <a href="#review">reviews</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <!-- nav icons -->
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="user-btn"></i>
+        </div>
+        <!-- nav search bar form -->
+        <form action="" class="searchbar">
+            <input type="search" id="search-bar" placeholder="looking for anything ...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- ----- login form ----- -->
+    <div class="login">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>dont have an account? &#128562 <a href="#">register now</a> &#128513</p>
+        </form>
+    </div>
+
+    <!-- ----- home page ----- -->
+    <section id="home">
+        <div class="content">
+            <h3>
+                <span class="first">L</span><span class="second">ANDIFY</span>: no place like home
+            </h3>
+            <p>
+                discover your next beautiful home with us, LANDIFY is here to assist you
+            </p>
+            <div class="buttons">
+                <a href="#buying" class="btn">Buying</a>
+                <a href="https://forms.gle/36is4oi1kNXwT45v9" class="btn">Selling</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----- about page ----- -->
+    <section id="about">
+        <div class="content">
+            <div class="text">
+                <h1 class="heading">
+                    ABOUNT LANDIFY
+                </h1>
+            </div>
+            <div class="info">
+                <p>
+                    Landify is owned by Hemighty Property and Construction Company. Our company is aimed at providing you with easy access to sell or buy houses and land from anywhere you are. Just book an appointment to meet with our experts for fast purchasing. Your satisfaction
+                    and convenience are our priority.
+                </p>
+            </div>
+            <div class="button">
+                <a href="#review" class="btn">Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----- buying section ----- -->
+    <section class="buying" id="buying">
+
+        <h1 class="heading">
+            BUY A HOME
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/img_05.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_06.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_07.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_08.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_06.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_01.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+                <!-- </div>
+
+            <div class="box">
+                <img src="images/img_04.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img_02.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="https://forms.gle/qk2a2XC6mAomvryR8" class="btn">book now</a>
+                </div>
+            </div> -->
+
+            </div>
+
+    </section>
+
+    <!-- ----- reviews page ----- -->
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            REVIEWS
+        </h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/pic1.png" alt="">
+                    <div class="rev" style="display: flex;flex-direction: column;text-align: left;margin-left: 3rem;">
+                        <h3>
+                            <span style="color: cadetblue;">Name:</span>&nbsp;Kelvin
+                        </h3>
+                        <h3 style="margin: 1.5rem 0;">
+                            <span style="color: cadetblue">Review:</span>&nbsp;Based on my experience with LANDIFY, I would suggest them to anyone looking to buy land without the worry or hassles that come with it. They are very cautious and consider
+                            their clients first before and after purchasing land. Their customer service is also prompt, and they are among the best. Just give them a shot and you'll see what I mean.
+                        </h3>
+                        <div class="stars" style="margin-top: 1rem;">
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="far fa-star" style="color: cadetblue;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/pic2.png" alt="">
+                    <div class="rev" style="display: flex;flex-direction: column;text-align: left;margin-left: 3rem;">
+                        <h3>
+                            <span style="color: cadetblue;">Name:</span>&nbsp;Prince
+                        </h3>
+                        <h3 style="margin: 1.5rem 0;">
+                            <span style="color: cadetblue">Review:</span>&nbsp; I discovered landify not long ago and for a new customer i am satisfied with the service. Not like other sites that you talk to robots. I really like the book appointment
+                            feature it makes me feel secure and open to trust the service providers.
+                        </h3>
+                        <div class="stars" style="margin-top: 1rem;">
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="far fa-star" style="color: cadetblue;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/pic3.png" alt="">
+                    <div class="rev" style="display: flex;flex-direction: column;text-align: left;margin-left: 3rem;">
+                        <h3>
+                            <span style="color: cadetblue;">Name:</span>&nbsp;Glory
+                        </h3>
+                        <h3 style="margin: 1.5rem 0;">
+                            <span style="color: cadetblue">Review:</span>&nbsp;Hello! I love this website it’s great.
+                        </h3>
+                        <div class="stars" style="margin-top: 1rem;">
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="far fa-star" style="color: cadetblue;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/pic4.png" alt="">
+                    <div class="rev" style="display: flex;flex-direction: column;text-align: left;margin-left: 3rem;">
+                        <h3>
+                            <span style="color: cadetblue;">Name:</span>&nbsp;Joe
+                        </h3>
+                        <h3 style="margin: 1.5rem 0;">
+                            <span style="color: cadetblue">Review:</span>&nbsp;So far landify has not decided me. As a seller i have always been able to upload my lands or houses for sale and i get interested customers reaching out to me. From any other
+                            online platform i think landify is the best.
+                        </h3>
+                        <div class="stars" style="margin-top: 1rem;">
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="fas fa-star" style="color: cadetblue;"></i>
+                            <i class="far fa-star" style="color: cadetblue;"></i>
+                        </div>
+                    </div>
+                    <!-- </div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+                </div>
+            </div>
+    </section>
+
+    <!-- ----- contact page ----- -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            CONTACT
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ----- jquery script ----- -->
+    <script src="script/jquery.js"></script>
+
+    <!-- ----- vegas slide-show script ----- -->
+    <script src="script/vegas.js"></script>
+
+    <!-- ----- swiper bundel script ----- -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ----- custom javascript ----- -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
